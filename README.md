@@ -1,5 +1,5 @@
-# Dota-2-Reborn
-Tracker for issues specific to Linux and Mac in the Reborn client. If you have a general issue or non-system-specific feature request please go to dev.dota2.com
+# Dota-2
+Tracker for issues specific to Linux and Mac in the Reborn client. If you have a general issue or non-system-specific feature request please go to dev.dota2.com.  Issues that only occur with Vulkan should be logged in the Dota-2-Vulkan tracker.
 
 Notes:
 
@@ -19,7 +19,7 @@ There are basic rules of conduct that should be followed at all times by everyon
 - Do not use ALL CAPS when creating an issue report.
 - Do not repeatedly update an open issue remarking that the issue persists.
 
-Remember: Just because the issue you reported was reported here does not mean that it is an issue with Dota 2 Reborn.  As well, should your issue not be resolved immediately, it does not mean that a resolution is not being researched or tested.  Patience is always appreciated.
+Remember: Just because the issue you reported was reported here does not mean that it is an issue with Dota 2.  As well, should your issue not be resolved immediately, it does not mean that a resolution is not being researched or tested.  Patience is always appreciated.
 
 Reporting Issues
 ----------------
