@@ -2,6 +2,7 @@
 
 * System information from steam (`Steam` -> `Help` -> `System Information`) in a [gist](https://gist.github.com/): 
 * Have you checked for system updates?: [Yes/No]
+* Are you using the latest stable video driver available for your system? [Yes/No]
 * Have you verified the game files?: [Yes/No]
 
 #### Please describe your issue in as much detail as possible:
