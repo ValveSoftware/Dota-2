@@ -3,11 +3,12 @@ Tracker for issues specific to Linux and Mac in the Reborn client. If you have a
 
 Notes:
 
+* Make sure to validate your Dota install from the Steam client (https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
 * The game requires a 64-bit capable CPU and distribution
 * If using nVidia proprietary drivers on Linux, please update to 340.xx or newer before filing a bug report
 * If using Mesa on Linux, please update to 10.5.9 or newer before filing a bug report.
 
-If the game fails to launch with a "missing executable" error, please use Steam to [verify the integrity](https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335) of the game's files in order to acquire the missing binaries.
+If the game fails to launch with a "missing executable" error the validation (point #1 above) should correct it.
 
 Conduct
 -------
