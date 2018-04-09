@@ -1,5 +1,5 @@
 # Dota-2
-Tracker for issues specific to Linux and Mac in the Reborn client. If you have a general issue or non-system-specific feature request please go to dev.dota2.com.  Issues that only occur with Vulkan should be logged in the Dota-2-Vulkan tracker.
+Tracker for issues specific to Linux and Mac in the Reborn client. If you have a general issue or non-system-specific feature request please go to dev.dota2.com.  Issues that only occur with Vulkan should be logged in the Dota-2-Vulkan tracker.  As this is a bug tracker and not a discussion forum the existence of the issue is sufficient for Valve to see it.  New issues will be checked by a Valve dev and marked reviewed if they are kept.  This means that Valve is aware of the issue and the issue will stay open as long as Valve believes it hasn't been fixed.  There won't be further comments on the issue unless there are specific questions or information to convey.  In particular it isn't possible to give up-front timeframes for when things will be fixed.
 
 Notes:
 
@@ -50,6 +50,10 @@ The preferred and easiest way to get this information is from Steam's Hardware I
 
 Once your information appears: right-click within the dialog, choose `Select All`, right-click again, and then choose `Copy`.
 Paste this information into your report, preferably in a code block or a [gist](https://gist.github.com).
+
+### Crash dumps / Failure report files
+
+Your Steam system information may have a Failure Reports section which indicates failures that were recognized and submitted to Valve.  If a failure report has a crash ID it was recorded at Valve and will be available to Valve developers.  If the crash was discarded it means that other similar reports are already available.  If there are no failure reports in the Steam system information then the failures are not being caught by Dota.  This may indicate a system problem or a class of failure that can't be captured.  On Linux you can look in /tmp/dumps to see if there are crash dump files there.  Also on Linux you can look at the tail of the dmesg output after a crash to see if Dota is mentioned.  On macOS you can look at system crash information to see if there is a report of a failure.
 
 Feature Requests
 -------------------
