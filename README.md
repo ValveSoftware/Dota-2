@@ -1,16 +1,18 @@
 # Dota-2
-Tracker for issues specific to Linux and Mac in the Reborn client. If you have a general issue or non-system-specific feature request please go to dev.dota2.com.  Issues that only occur with Vulkan should be logged in the Dota-2-Vulkan tracker.
+Tracker for issues specific to Dota 2 on Linux and macOS. 
+* If you have a general issue or non-system-specific feature request, please use [Dota2-Gameplay](https://github.com/ValveSoftware/Dota2-Gameplay) tracker instead. 
+* Issues that only occur with Vulkan should be logged in the [Dota-2-Vulkan](https://github.com/ValveSoftware/Dota-2-Vulkan) tracker.
 
 As this is a bug tracker and not a discussion forum the existence of the issue is sufficient for Valve to see it.  New issues will be checked by a Valve dev and marked reviewed if they are kept.  This means that Valve is aware of the issue and the issue will stay open as long as Valve believes it hasn't been fixed.  There won't be further comments on the issue unless there are specific questions or information to convey.  In particular it isn't possible to give up-front timeframes for when things will be fixed.  There is no need to post on open issues that they have not been fixed as Valve will close issues when they are expected to be fixed.
 
 Notes:
 
-* Make sure to validate your Dota install from the Steam client (https://support.steampowered.com/kb_article.php?ref=2037-QEUH-3335)
-* The game requires a 64-bit capable CPU and distribution
-* If using nVidia proprietary drivers on Linux, please update to 340.xx or newer before filing a bug report
+* Make sure to validate your Dota install from the Steam client: https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB
+* The game requires a 64-bit capable CPU and distribution.
+* If using NVIDIA proprietary drivers on Linux, please update to 340.xx or newer before filing a bug report.
 * If using Mesa on Linux, please update to 10.5.9 or newer before filing a bug report.
 
-If the game fails to launch with a "missing executable" error the validation (point #1 above) should correct it.
+If the game fails to launch with a "missing executable" error the [validation](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB) should correct it.
 
 Conduct
 -------
@@ -27,9 +29,9 @@ Remember: Just because the issue you reported was reported here does not mean th
 Reporting Issues
 ----------------
 
-If you encounter a bug while using Dota 2 Reborn, first search the [issue list](https://github.com/ValveSoftware/Dota-2/issues) to see if it has already been reported. Include closed issues in your search. If your issue has been reported, please upvote the issue by clicking the "Add Reaction" button (smiley face with a plus sign) on the top post and adding a thumbs up. Voting helps us determine which issues are important to users without cluttering the bug database.
+If you encounter a bug while using Dota 2, first search the [issue list](https://github.com/ValveSoftware/Dota-2/issues) to see if it has already been reported. Include closed issues in your search. If your issue has been reported, please upvote the issue by clicking the "Add Reaction" button (smiley face with a plus sign) on the top post and adding a thumbs up. Voting helps us determine which issues are important to users without cluttering the bug database.
 
-Note: Comments do not count as votes.
+***Note:*** Comments do not count as votes.
 
 If it has not been reported, create a new issue with at least the following information:
 
@@ -62,7 +64,7 @@ Your Steam system information may have a Failure Reports section which indicates
 Feature Requests
 -------------------
 
-This repository is not meant for Dota 2 Reborn feature requests. There are forums dedicated to general Dota 2 discussion at http://dev.dota2.com.
+This repository is not meant for Dota 2 feature requests. For feature requests, please use [Dota2-Gameplay](https://github.com/ValveSoftware/Dota2-Gameplay) tracker instead.
 
 Linux Specific
 ==============
@@ -70,32 +72,27 @@ Linux Specific
 Driver Contact Information
 --------------------------
 
-Some of the issue you may be experiencing are due to the various video drivers.  Here is an incomplete list of places that you might be able to file bugs or get additional help:
+Some of the issue you may be experiencing are due to the various video drivers. Here is an incomplete list of places that you might be able to file bugs or get additional help:
 
-### AMD
 
-AMD Steam Linux forum for reporting **compatibility and performance issues with AMD hardware**:
-
-https://community.amd.com/community/devgurus/steam-linux
-
-The AMD Open Source driver is a part of Mesa, so use the links under "Intel" to report issues with it.
-
-### Intel
+### AMD / Intel Open Source driver
 
 For discussions, there is the mesa-users email list:
 
-http://mesa3d.org/lists.html
+- https://docs.mesa3d.org/lists.html
 
 Bugs and feature requests should be logged in bugzilla:
 
-http://mesa3d.org/bugs.html
+- https://docs.mesa3d.org/bugs.html
 
 ### NVIDIA
 
-NVIDIA supported drivers
-- https://devtalk.nvidia.com/default/board/98
+NVIDIA supported drivers:
 
-Open Source NVIDIA driver (nouveau)
-- http://nouveau.freedesktop.org/wiki
+- https://forums.developer.nvidia.com/c/gpu-graphics/linux/148
+
+Open Source NVIDIA driver (nouveau):
+
+- https://nouveau.freedesktop.org/
 
 If you know of any other places, please let us know.
