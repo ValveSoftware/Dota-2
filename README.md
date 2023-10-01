@@ -1,5 +1,5 @@
 # Dota-2
-Tracker for issues specific to Linux and Mac in the Reborn client. If you have a general issue or non-system-specific feature request please go to dev.dota2.com.  Issues that only occur with Vulkan should be logged in the Dota-2-Vulkan tracker.
+Tracker for issues specific to Linux and Mac in the Reborn client. If you have a general issue or non-system-specific feature request please go to https://github.com/ValveSoftware/Dota2-Gameplay/issues.  Issues that only occur with Vulkan should be logged in the Dota-2-Vulkan tracker.
 
 As this is a bug tracker and not a discussion forum the existence of the issue is sufficient for Valve to see it.  New issues will be checked by a Valve dev and marked reviewed if they are kept.  This means that Valve is aware of the issue and the issue will stay open as long as Valve believes it hasn't been fixed.  There won't be further comments on the issue unless there are specific questions or information to convey.  In particular it isn't possible to give up-front timeframes for when things will be fixed.  There is no need to post on open issues that they have not been fixed as Valve will close issues when they are expected to be fixed.
 
@@ -62,7 +62,7 @@ Your Steam system information may have a Failure Reports section which indicates
 Feature Requests
 -------------------
 
-This repository is not meant for Dota 2 Reborn feature requests. There are forums dedicated to general Dota 2 discussion at http://dev.dota2.com.
+This repository is not meant for Dota 2 Reborn feature requests. Feature requests can be made at https://github.com/ValveSoftware/Dota2-Gameplay/issues.
 
 Linux Specific
 ==============
