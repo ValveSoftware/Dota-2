@@ -1,6 +1,7 @@
 #### Your system information
 
-* System information from steam (`Steam` -> `Help` -> `System Information`) in a [gist](https://gist.github.com/): 
+* System information from steam (`Steam` -> `Help` -> `System Information`) in a [gist](https://gist.github.com/):
+<!-- If on Linux, please include Steam -> Help -> Steam Runtime Diagnostics in the gist. -->
 * Have you checked for system updates?: [Yes/No]
 * Are you using the latest stable video driver available for your system? [Yes/No]
 * Have you verified the game files?: [Yes/No]
